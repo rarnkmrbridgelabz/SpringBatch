@@ -18,6 +18,7 @@ public class Processor implements ItemProcessor<User, User> {
         DEPT_NAMES.put("001", "Mechanical");
         DEPT_NAMES.put("002", "Production");
         DEPT_NAMES.put("003", "Automobile");
+        DEPT_NAMES.put("004", "Civil");
     }
 
     @Override

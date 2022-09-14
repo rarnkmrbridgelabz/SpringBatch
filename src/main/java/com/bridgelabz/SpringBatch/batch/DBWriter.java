@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 public class DBWriter implements ItemWriter<User> {
-
+    @Autowired
     private UserRepository userRepository;
 
     @Autowired
